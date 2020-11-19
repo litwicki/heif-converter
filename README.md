@@ -1,7 +1,16 @@
 # Convert HEIF to JPG
 
-Convert HEIC/F files to JPG.
+Convert HEIC/F files to JPG on a linux system.
 
-Requires [heif-convert](http://manpages.ubuntu.com/manpages/hirsute/en/man1/heif-convert.1.html) to be installed on a linux system.
+## Required
 
-    apt-get install heif-convert
+- [heif-convert](http://manpages.ubuntu.com/manpages/hirsute/en/man1/heif-convert.1.html)
+- NodeJS
+
+## Setup
+
+    cp .env.dev .env
+
+## Usage
+
+    node convert.js
